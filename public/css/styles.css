@@ -1,0 +1,205 @@
+body{
+	font-family:'Montserrat-Black', sans-serif;
+}
+
+
+#title{
+	/* background-color: #ff4c68; */
+	background: #1287CE;
+background: -moz-linear-gradient(left, #1287CE 0%, #1287CE 51%, #1F55C5 100%);
+background: -webkit-linear-gradient(left, #1287CE 0%, #1287CE 51%, #1F55C5 100%);
+background: linear-gradient(to right, #1287CE 0%, #1287CE 51%, #1F55C5 100%);
+	color: #fff;
+
+}
+
+
+.navbar-nav{
+	margin-left: auto;
+
+
+}
+.nav-item{
+	padding: 0 18px;
+}
+.nav-link{
+	font-weight: 1.5rem;
+	font-family: "Montserrat-light";
+}
+h1{
+	font-family:'Montserrat-Black', sans-serif;
+	color: black;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+.container-fluid{
+	padding: 3% 15%;
+}
+.txt{
+	color:#fff;
+}
+.navbar-brand{
+	font-family:"ubuntu";
+	font-weight: bold;
+	font-size: 2rem;
+
+}
+.navbar{
+	padding:0 0 4.5rem;
+}
+.img1{
+	
+	margin-left: 100px;
+	width: 80%;
+}
+.btn{
+	margin: 5% 3% 5% 0;
+}
+#features{
+	padding: 5% 0;
+	
+	
+}
+.fea{
+	text-align: center;
+	padding: 3%;
+	
+}
+h3{
+	font-style: "Montserrat-Black",sans-serif;
+	font-weight:2rem;
+}
+p{
+	color: #8f8f8f;
+}
+.icon{
+	/* color:#ef8172; */
+	
+color: #1287CE;
+}
+.icon:hover{
+	/* color:#ff4c68; */
+color: #1F55C5;
+}
+#testimonials{
+text-align: center;
+/* background-color: #ef8172; */
+background: #1287CE;
+background: -moz-linear-gradient(left, #1287CE 0%, #1287CE 51%, #1F55C5 100%);
+background: -webkit-linear-gradient(left, #1287CE 0%, #1287CE 51%, #1F55C5 100%);
+background: linear-gradient(to right, #1287CE 0%, #1287CE 51%, #1F55C5 100%);
+}
+.img2{
+	padding: 5% 0;
+display: block;
+margin: auto;
+border-radius: 100%;
+width: 15%;
+}
+h2{
+	color:#fff;
+	line-height: 1.5;
+	font-size: 2.5rem;
+}
+#press{
+	text-align: center;
+	padding: 8% 0;
+	/* background-color: #ef8172; */
+	background: #1287CE;
+background: -moz-linear-gradient(left, #1287CE 0%, #1287CE 51%, #1F55C5 100%);
+background: -webkit-linear-gradient(left, #1287CE 0%, #1287CE 51%, #1F55C5 100%);
+background: linear-gradient(to right, #1287CE 0%, #1287CE 51%, #1F55C5 100%);
+}
+.b{
+	padding-bottom: 5%;
+}
+.price{
+ 
+	text-align: center;
+	margin: auto;
+
+}
+#pricing{
+	padding-bottom:  3%;
+}
+.c{
+	padding: 3% 0;
+}
+#cta{
+	text-align: center;
+	/* background-color: #ef8172; */
+	padding-bottom: 3%;
+	background: #1287CE;
+background: -moz-linear-gradient(left, #1287CE 0%, #1287CE 51%, #1F55C5 100%);
+background: -webkit-linear-gradient(left, #1287CE 0%, #1287CE 51%, #1F55C5 100%);
+background: linear-gradient(to right, #1287CE 0%, #1287CE 51%, #1F55C5 100%);
+
+}
+.one{
+padding: 5% 0;
+color:#fff;
+font-family: "Montserrat-light",sans-serif;
+line-height: 1.5;
+}
+.two{
+	margin-right: 20px;
+
+}
+
+#footer{
+	text-align: center;
+	padding: 6% 0;
+
+}
+
+.i{
+	/* color:#ef8172; */
+	color: #1287CE;
+	padding: 1%
+}
+.i:hover{
+	/* color:#ff4c68; */
+	color: #1F55C5;
+}
+.x{
+	padding: 1%
+}
+#pics{
+	
+	text-align: center;
+	background-color: #E6E6E6;
+	font-family: "Montserrat-light";
+	padding-bottom: 8%;
+
+}
+
+
+
+
+
+@media(max-width: 980px){
+	#title{
+		text-align: center;
+	}
+	.img1{
+		margin: auto;
+	}
+	.b{
+		padding-bottom: 10%;
+	}
+	
+	.col-pic{
+		margin-left: 80px;
+		padding-bottom: 3%;
+
+	}
+	.edit{
+		margin: auto;
+	}
+	
+	
+}
+	
+	
+
+
