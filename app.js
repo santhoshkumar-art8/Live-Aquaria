@@ -1,7 +1,7 @@
 let express=require("express");
 let app=express();
 let mongoose=require("mongoose");
-let port=process.env.PORT || 5000;
+let port=process.env.PORT || 8000;
 
 app.set('view engine','ejs');
 app.use(express.urlencoded({extended:true}));
@@ -11,7 +11,7 @@ app.use(express.static("public"));
 
 const MONGOD_URI='mongodb+srv://santhosh:san123@fish.2tgkz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
-mongoose.connect(process.env.MONGOD_URI || "mongodb://localhost:27017/fishDB");
+mongoose.connect(MONGOD_URI || "mongodb://localhost:27017/fishDB");
 
 mongoose.connection.on('connected',()=>{
     console.log("mongo connected sucessfully");
